@@ -1,0 +1,62 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: honeydew;
+    width: 100%;
+}
+
+h1{
+    font-size: 5vw;
+    text-align: center;
+    font-family: 'Segoe UI';
+    color:brown;
+    text-shadow: 1px 2px 5px darkgray;
+    position: static;
+}
+
+h2{
+    font-size: 2vw;
+    text-align: left;
+    font-family: 'Segoe UI';
+    color:brown;
+    margin-left: 50px;
+    position:static;
+}
+
+.two-column-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.two-column-table td {
+    border: 20px solid #dddddd;
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+}
+@media(max-width: 700px){
+    .two-column-table{
+        flex-direction: column;
+    }
+}
+
+.two-column-table img {
+    max-width: 100%;
+    height: auto;
+}
+
+.number{
+    font-size: 15px;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.oos{
+    font-size: 15px;
+    background-color: darkgray;
+    padding: 15px;
+    border-radius: 10px;
+}
